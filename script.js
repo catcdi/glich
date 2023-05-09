@@ -366,7 +366,7 @@ const init = () => {
   cameraBack.position.set(0, 0, 100);
   cameraBack.lookAt(new THREE.Vector3());
 
-  bgImg.init('https://uploads-ssl.webflow.com/62db1145372ce23b48833c1a/645a9ba03d365aced23d6493_Frame%201.png', () => {
+  bgImg.init('https://uploads-ssl.webflow.com/62db1145372ce23b48833c1a/62e54111e1a61c8c5de49002_hero.jpeg', () => {
     sceneBack.add(bgImg.obj);
     scene.add(postEffect.obj);
   });
