@@ -5,9 +5,9 @@ $( function() {
           scale: true, 
           blend : true, 
           blendModeType : 'hue',
-          glitch1TimeMin : 10, 
-          glitch1TimeMax : 10000,
-          glitch2TimeMin : 10, 
-          glitch2TimeMax : 30000, 
+          glitch1TimeMin : 100, 
+          glitch1TimeMax : 5000,
+          glitch2TimeMin : 100, 
+          glitch2TimeMax : 1000, 
 		});
 });
